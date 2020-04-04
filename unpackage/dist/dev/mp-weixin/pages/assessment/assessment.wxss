@@ -1,0 +1,7 @@
+
+.title {
+	margin: 15rpx;
+	font-size: 36rpx;
+	color: #8F8F94;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "工作经历",
+  "usingComponents": {
+    "uni-card": "/components/uni-card/uni-card"
+  }
+}

@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "个人简历"
+			}
+		},
+		{
+			"path": "pages/work/work",
+			"style": {
+				"navigationBarTitleText": "工作经历"
+			}
+		},
+		{
+			"path": "pages/assessment/assessment",
+			"style": {
+				"navigationBarTitleText": "自我评价"
+			}
+		},
+		{
+			"path": "pages/information/information",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/item/item",
+			"style": {
+				"navigationBarTitleText": "项目经历"
+			}
+		},
+		{
+			"path": "pages/skill/skill",
+			"style": {
+				"navigationBarTitleText": "技能介绍"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color" : "#8e8e8e",
+		"selectedColor" : "#4CD964",
+		"borderStyle" : "black",
+		"backgroundColor" : "#ffffff",
+		"list": [
+			{
+			    "pagePath" : "pages/index/index",
+			    "text" : "个人信息"
+			},
+			{
+			    "pagePath" : "pages/skill/skill",
+			    "text" : "技能介绍"
+			},
+			{
+			    "pagePath" : "pages/work/work",
+			    "text" : "工作经历"
+			},
+			// {
+			//     "pagePath" : "pages/item/item",
+			//     "text" : "项目经历"
+			// },
+			{
+			    "pagePath" : "pages/assessment/assessment",
+			    "text" : "自我评价"
+			}
+		]
+	}
+}
