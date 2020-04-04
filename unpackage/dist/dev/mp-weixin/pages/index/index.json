@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "任建堃-简历",
-  "usingComponents": {
-    "uni-list": "/components/uni-list/uni-list",
-    "uni-list-item": "/components/uni-list-item/uni-list-item",
-    "uni-card": "/components/uni-card/uni-card"
-  }
-}
